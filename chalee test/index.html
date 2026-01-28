@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chalee - Creative Developer Portfolio">
+    <title>Chalee | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">CHALEE AMIPONG<span style="color:var(--accent-primary)">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="./hero_background.png" alt="Abstract Background">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-subtitle">Welcome to my world</span>
+                <h1 class="hero-title">I create <span class="gradient-text">digital experiences</span> that matter.</h1>
+                <p class="hero-description">Passionate developer & designer crafting beautiful, functional, and
+                    user-centered digital solutions.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">Get in Touch</a>
+                    <a href="#projects" class="btn btn-outline">View Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="gradient-text">Expertise</span></h2>
+                <p class="section-subtitle">Tools and technologies I use to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <h3 class="skill-name">HTML & CSS</h3>
+                    <p class="skill-desc">Modern semantic structure with advanced styling using Flexbox, Grid, and
+                        Animations.</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-brands fa-js skill-icon"></i>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-desc">Building interactive dynamic updates and complex logic for web applications.
+                    </p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-brands fa-react skill-icon"></i>
+                    <h3 class="skill-name">React / Frameworks</h3>
+                    <p class="skill-desc">Experience with modern frontend libraries for scalable component-based
+                        architecture.</p>
+                </div>
+                <div class="skill-card glass">
+                    <i class="fa-solid fa-wand-magic-sparkles skill-icon"></i>
+                    <h3 class="skill-name">UI/UX Design</h3>
+                    <p class="skill-desc">Creating intuitive interfaces with focus on user experience and visual
+                        hierarchy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">A selection of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass">
+                    <div class="project-image">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Dashboard</h3>
+                        <p class="project-desc">A responsive admin dashboard with dark mode, data visualization charts,
+                            and order management.</p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass">
+                    <div class="project-image">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <h3 class="project-title">Weather App</h3>
+                        <p class="project-desc">Real-time weather application using OpenWeatherMap API with
+                            location-based forecasting.</p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass">
+                    <div class="project-image">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Canvas</span>
+                            <span class="tag">GameDev</span>
+                        </div>
+                        <h3 class="project-title">2D Platformer</h3>
+                        <p class="project-desc">A browser-based platformer game with smooth physics, particle effects,
+                            and sound.</p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p class="section-subtitle">Have a project in mind? Send me a message.</p>
+            </div>
+            <div class="contact-form glass">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-input" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-textarea" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Chalee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
